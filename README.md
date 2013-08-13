@@ -10,9 +10,18 @@ This project is in alpha stage, you should try it and discuss on [IRC (#harborma
 
 drydock expose an HTTP API to receive instructions about repositories to pull
 
+## Configuration
+
+all configuration are passed by environment variables
+
+- API_KEY: _String_ to compare to X-Drydock-Key request header
+- STORAGE_PATH: path where to store de repositories
+- SSH_KEY: optional _String_ encoded in base64 to replace ~/.ssh/id_rsa
+
 ## Roadmap
 
 - store already cloned repositories on S3
+- mercurial support
 - garbage collect localy stored repositories
 - http endpoint to receive pull/push from ssh (via custom http upgrade) and http
 
