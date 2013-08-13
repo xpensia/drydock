@@ -1,0 +1,17 @@
+{
+  "name": "drydock",
+  "version": "0.0.1",
+  "description": "Pull repositories and prepare for docker's build",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xpensia/drydock.git"
+  },
+  "author": {
+    "name": "Jean-Sébastien Tremblay",
+    "email": "jeansebtr@xpensia.com",
+    "url": "http://blog.jeansebtr.com/"
+  },
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "6c68944ed596e2219101887aa8dd7eb5e1aa2e28"
+}
