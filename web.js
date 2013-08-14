@@ -23,6 +23,9 @@ var srv = http.createServer(function (req, res) {
     else if(req.url == '/update') {
         api.updateRepo(req, res);
     }
+    else if(req.url == '/build') {
+        api.buildCommit(req, res);
+    }
     else {
         res.writeHead(404);
         res.end();
